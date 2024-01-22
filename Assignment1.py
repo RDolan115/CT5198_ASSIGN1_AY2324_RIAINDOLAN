@@ -25,7 +25,7 @@ def main():
     customer_count = [0] * len(days)
 
     # Part b: Use a for loop to get user input for each day
-    # The for loop is implemented over each index in the customer_count list
+    # The for loop is implemented over each day
     for i in range(len(days)):
         day = days[i]
         # While, try, and except to catch any invalid inputs and continue prompting the user for a correct input
